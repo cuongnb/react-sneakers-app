@@ -2,12 +2,9 @@ import React from "react";
 import { Home } from "../pages/Home/Home";
 import { Cart } from "../pages/Cart/Cart";
 import { Route, Routes } from "react-router-dom";
-import { Login } from "../pages/Auth/Login/Login";
 import { ProductListing } from "../pages/ProductListing/ProductListing";
 import { ProductDetails } from "../pages/ProductDetails/ProductDetails";
 import { RequiresAuth } from "../components/requires-auth/RequiresAuth";
-import { Signup } from "../pages/Auth/Signup/Signup";
-import { Logout } from "../pages/Auth/Logout/Logout";
 import { Checkout } from "../pages/Checkout/Checkout";
 import { Wishlist } from "../pages/Wishlist/Wishlist";
 import { UserProfile } from "../pages/UserProfile/UserProfile";
@@ -15,6 +12,9 @@ import { Profile } from "../pages/UserProfile/Profile/Profile";
 import { Addresses } from "../pages/UserProfile/Addresses/Addresses";
 import { Orders } from "../pages/UserProfile/Orders/Orders";
 import { PageNotFound } from "../pages/PageNotFound/PageNotFound";
+import {Logout} from "../pages/auth/Logout/Logout";
+import {Login} from "../pages/auth/Login/Login";
+import {Signup} from "../pages/auth/Signup/Signup";
 
 export const NavRoutes = () => {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import { useUserData } from "../../contexts/UserDataProvider";
 import { BsFillStarFill } from "react-icons/bs";
-import "./Wishlist.css";
 import { useNavigate } from "react-router-dom";
 import { useData } from "../../contexts/DataProvider";
 

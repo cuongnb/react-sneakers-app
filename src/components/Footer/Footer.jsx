@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+// import "./Footer.css";
 import { ImGithub } from "react-icons/im";
 import { SiLinkedin } from "react-icons/si";
 import { BsTwitter } from "react-icons/bs";

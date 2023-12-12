@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth } from "../../../contexts/AuthProvider";
-import { Logout } from "../../Auth/Logout/Logout";
 import "./Profile.css";
+import {Logout} from "../../auth/Logout/Logout";
 
 export const Profile = () => {
   const { auth } = useAuth();
